@@ -151,6 +151,17 @@ For a production-grade, scalable architecture, the current in-memory `TASKS` dic
 *   **Message Queue (e.g., RabbitMQ):** To decouple the API from the automation workers, allowing tasks to be queued and processed asynchronously by multiple workers. This ensures high throughput and resilience.
 *   **Database (e.g., SQL-based):** To persist task status, reCAPTCHA results, and proxy configurations, providing data durability and enabling more complex querying and reporting.
 
+![System Architecture Diagram](Task4/Task%204%20System%20Diagram.png)
+
+**Brief Architecture Explanation:**
+The diagram illustrates a scalable, microservices-based architecture for handling automation tasks.
+*   **Users/Clients** interact through a **Load Balancer**, distributing requests to various **Microservices (A, B, C)**.
+*   These Microservices primarily **Send Tasks** to a **RabbitMQ (Task Queue)** for asynchronous processing.
+*   **Worker Nodes** (horizontally scalable) consume tasks from RabbitMQ.
+*   Workers interact with an **SQL Database** for read/write operations.
+*   A **Monitoring Stack** collects data on system error logging, health, and current load from all active components (Microservices, RabbitMQ, Workers, SQL Database).
+*   **Failover & Recovery** mechanisms (DB Replica, Worker Restart, RabbitMQ HA, Backups) ensure system resilience and data durability.
+
 ## Usage
 
 ### Task 1: Running the reCAPTCHA Automation Simulation
