@@ -3,6 +3,45 @@
 ## Project Overview
 This repository contains a technical assessment project demonstrating advanced Python development skills in automation and crawling. Key features include stealth reCAPTCHA v3 automation, a scalable FastAPI backend for managing automation tasks, and sophisticated DOM scraping techniques to differentiate visible from hidden elements. The architecture is designed for scalability and robustness, incorporating proxy management and human-like interaction simulations.
 
+## Original Prompt
+```
+Role: You are an expert Python Developer specializing in Web Automation, Stealth Scraping,
+and Backend Architecture.
+Objective: Help me complete a technical assessment for a Python Developer (Automation &
+Crawling) role. We need to address four specific tasks with high-quality, production-ready code
+and detailed research.
+Context & Requirements:
+1. Task 1 (Stealth & reCAPTCHA v3): > * Target URL:
+https://cd.captchaaiplus.com/recaptcha-v3-2.php
+Ο Goal: Create a script using Playwright or Selenium (with stealth plugins) to
+achieve scores of 0.7-0.9.
+Ο Scale: Automate 250 tests; ensure 15% achieve a 0.9 score.
+Ο Networking: Must support IPv4 and IPv6 proxies.
+Ο Analysis: Provide a research report on reCAPTCHA v3 types, "Parameter-Issue-
+Solution" reports, and explain how to manipulate scores.
+2. Task 2 (API Framework):
+Ο Develop a FastAPI or Flask app with two endpoints: /recaptcha/in (returns
+TaskID) and /recaptcha/res (returns the token).
+Ο Include a simulation script showing a "customer" using this API to scrape.
+3. Task 3 (DOM Scraping):
+Ο Extract 100+ images from a target site as Base64.
+Ο Challenge: Distinguish between "all images" and "human-visible" images
+specific ones) and visible text instructions.
+4. Task 4 (System Architecture):
+Ο Design a scalable system using RabbitMQ, Worker nodes (Horizontal Scaling),
+SQL Database, and a monitoring stack (Health, Load, Error Logging).
+Your Specific Instructions:
+• For Task 1: Explain the "Human-like" behavior parameters (mouse movement, jitter,
+cookies, user-agent) that influence the score.
+• For Task 3: Use CSS visibility properties or element coordinates to filter "human-visible"
+elements from the hidden DOM noise.
+• For Task 4: Provide a structured description of the architecture that I can use to generate a
+diagram (e.g., using Mermaid.js syntax).
+• Output Format: Provide the Python code in clean, modular blocks. Include a Readme.MD
+structure and the separate Task1QA_Youssef_ElFarahaty.pdf content.
+```
+
+
 ## Tech Stack
 *   **Language:** Python
 *   **Web Framework:** [FastAPI](https://fastapi.tiangolo.com/)
