@@ -22,6 +22,7 @@ This repository contains a technical assessment project demonstrating advanced P
 ## Project Structure
 ```
 .
+├───Task1_Analysis.md
 ├───Task1/
 │   ├───results.jsonl
 │   ├───results.py
