@@ -34,7 +34,7 @@ This repository contains a technical assessment project demonstrating advanced P
 │   ├───scrape.py
 │   └───visible_images_only.json
 └───Task4/
-    └───Task 4 — Beginner Diagram (Clean Arrows Layout).png
+    └───Task 4 System Diagram.png
 ```
 
 ## Installation & Setup
