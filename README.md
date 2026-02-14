@@ -162,12 +162,6 @@ python Task3/scrape.py
 ```
 This will open a browser, navigate to the target URL, and then save `allimages.json` and `visible_images_only.json` in the `Task3` directory.
 
-## Limitations & Future Work
-It is important to acknowledge inherent limitations and areas for future development:
-*   **Probabilistic Nature of reCAPTCHA v3:** Scores are probabilistic and can fluctuate based on Google's evolving algorithms and external factors beyond direct control. Consistent high scores are not guaranteed and require continuous monitoring and adaptation.
-*   **External IP Reputation:** While proxy rotation is implemented for IP stabilization, the effectiveness of proxies is heavily dependent on their external reputation, which can change rapidly and impact scoring.
-*   **Resource Overhead of Persistent Contexts:** Maintaining persistent browser contexts (`user_data_dir`) across multiple sessions, especially for concurrent tasks, can lead to significant resource consumption (CPU, RAM, disk I/O), necessitating careful resource management in large-scale deployments.
-*   **Dynamic Web Changes:** Web elements and reCAPTCHA implementations are subject to frequent changes, requiring ongoing maintenance and adaptation of automation scripts and visibility algorithms.
 
 ## Author
 Youssef ElFarahaty
