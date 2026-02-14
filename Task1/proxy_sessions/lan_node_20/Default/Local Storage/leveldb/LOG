@@ -1,0 +1,5 @@
+2026/02/14-14:58:25.789 4230 Creating DB C:\Users\youss\Desktop\ABM\Task1\proxy_sessions\lan_node_20\Default\Local Storage\leveldb since it was missing.
+2026/02/14-14:58:25.803 4230 Reusing MANIFEST C:\Users\youss\Desktop\ABM\Task1\proxy_sessions\lan_node_20\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/14-15:00:57.004 6aa0 Level-0 table #5: started
+2026/02/14-15:00:57.012 6aa0 Level-0 table #5: 52033 bytes OK
+2026/02/14-15:00:57.014 6aa0 Delete type=0 #3

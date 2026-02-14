@@ -1,0 +1,6 @@
+2026/02/14-14:45:19.795 4dc0 Reusing MANIFEST C:\Users\youss\Desktop\ABM\Task1\proxy_sessions\proxy_82.23.62.152\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/14-14:45:19.800 4dc0 Recovering log #4
+2026/02/14-14:45:19.802 4dc0 Reusing old log C:\Users\youss\Desktop\ABM\Task1\proxy_sessions\proxy_82.23.62.152\Default\Local Storage\leveldb/000004.log 
+2026/02/14-14:48:21.150 1ef4 Level-0 table #8: started
+2026/02/14-14:48:21.159 1ef4 Level-0 table #8: 60845 bytes OK
+2026/02/14-14:48:21.161 1ef4 Delete type=0 #4
